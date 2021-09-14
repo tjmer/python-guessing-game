@@ -17,7 +17,7 @@ def main():
                 print("You are to low!")
                 player_guess = float(input("What number did comp choose?: "))
         guess_count += 1
-        print(player_name + ", YOU GUESSED IT!  It took", guess_count, "tries.")
+        print(player_name + ", YOU GUESSED IT!  It took you", guess_count, "tries.")
 
 
     game_guess()
